@@ -1,0 +1,103 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 15%;
+    display: block;
+    width: 100%;
+}
+
+.nav-links{
+    list-style-type: none;
+    float: right;
+    margin-right: 3%;
+}
+
+.nav-links li{
+    float: left;
+}
+
+.nav-links a{
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    border: 1px solid rgb(117, 16, 247);
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-links a:hover{
+    background-color: rgb(117, 16, 247);
+    color: blanchedalmond;
+}
+
+.fa-terminal{
+    color: rgb(117, 16, 247);
+}
+
+.page-icon{
+    font-size: 5rem;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.svg{
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.svg:hover .svg-top{
+    display: block;
+}
+
+.svg:hover ~ .title{
+    color: rgb(117, 16, 247);
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.svg-bottom{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -150px;
+}
+
+.svg-top{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 99;
+}
+
+.title{
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+    letter-spacing: 2.2px;
+    margin: auto;
+    font-weight: 500;
+}
+
