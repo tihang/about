@@ -275,6 +275,17 @@ img{
 
 @media only screen and (max-width: 930px){
 
+    .svg-top{
+        display: block;
+    }
+
+    .title{
+        color: rgba(117,16,247,1);
+    }
+
+    .circle{
+        display: block;
+    }
 
     .skill-table{
         width: 90%;
